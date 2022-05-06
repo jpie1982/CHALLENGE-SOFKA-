@@ -4,7 +4,7 @@ export const data = [
     choices: ['Francia','Uruguay','Brasil','Alemania'],
     answer: 'Francia',
     category:"Futbol",
-    level:"A",
+    nivel:"A",
     id:"1"
   },
   {
@@ -12,7 +12,7 @@ export const data = [
     choices: ['Bolivia','Uruguay','Brasil','Argentina'],
     answer: 'Argentina',
     category:"Futbol",
-    level:"A",
+    nivel:"A",
     id:"2",
   },
   {
@@ -20,7 +20,7 @@ export const data = [
     choices: ['Peñarol','Nacional','Danubio','Torque'],
     answer: 'Peñarol',
     category:"Futbol",
-    level:"A",
+    nivel:"A",
     id:"3",
   },
   {
@@ -28,7 +28,7 @@ export const data = [
     choices: ['Cavani','Suarez','Messi','Godin'],
     answer: 'Messi',
     category:"Futbol",
-    level:"A",
+    nivel:"A",
     id:"4",
   },
   {
@@ -36,7 +36,7 @@ export const data = [
     choices: ['Bolivia','Chile','Brasil','Argentina'],
     answer: 'Brasil',
     category:"Futbol",
-    level:"A",
+    nivel:"A",
     id:"5",
   },
   {
@@ -44,7 +44,7 @@ export const data = [
     choices: ['Argentina','Australia','España','Francia'],
     answer: 'España',
     category:"Basket",
-    level:"B",
+    nivel:"B",
     id:"6",
   },
   {
@@ -52,7 +52,7 @@ export const data = [
     choices: ['Brasil','Australia','España','Francia'],
     answer: 'España',
     category:"Basket",
-    level:"B",
+    nivel:"B",
     id:"7",
   },
   {
@@ -60,7 +60,7 @@ export const data = [
     choices: ['Brasil','Australia','España','Francia'],
     answer: 'España',
     category:"Basket",
-    level:"B",
+    nivel:"B",
     id:"8",
   },
   {
@@ -68,7 +68,7 @@ export const data = [
     choices: ['L.Messi','M.Jordan','L.James','K.Bryant'],
     answer: 'L.Messi',
     category:"Basket",
-    level:"B",
+    nivel:"B",
     id:"9",
   },
   {
@@ -76,7 +76,7 @@ export const data = [
     choices: ['L.Suarez','L.Ball','L.James','K.Durant'],
     answer: 'L.Suarez',
     category:"Basket",
-    level:"B",
+    nivel:"B",
     id:"10",
   },
   {
@@ -84,7 +84,7 @@ export const data = [
     choices: ['Roger Federer','Rafael Nadal','L.James','Novak Djokovic'],
     answer: 'Novak Djokovic',
     category:"Tenis",
-    level:"C",
+    nivel:"C",
     id:"11",
   },
   {
@@ -92,7 +92,7 @@ export const data = [
     choices: ['Novak Djokovic','Roger Federer','Rafael Nadal','Dominic Thiem'],
     answer: 'Novak Djokovic',
     category:"Tenis",
-    level:"C",
+    nivel:"C",
     id:"12",
   },
   {
@@ -100,7 +100,7 @@ export const data = [
     choices: ['12030','9850','9125','8470'],
     answer: '12030',
     category:"Tenis",
-    level:"C",
+    nivel:"C",
     id:"13",
   },
   {
@@ -108,7 +108,7 @@ export const data = [
     choices: ['Rafael Nadal','Roger Federer','Ricardo Tapia','Dominic Thiem'],
     answer: 'Ricardo Tapia',
     category:"Tenis",
-    level:"C",
+    nivel:"C",
     id:"14",
   },
   {
@@ -116,7 +116,7 @@ export const data = [
     choices: ['OPEN DE AUSTRALIA','ROLAND GARROS',' WIMBLEDON','COPA NORTEÑA'],
     answer: 'COPA NORTEÑA',
     category:"Tenis",
-    level:"C",
+    nivel:"C",
     id:"15",
   },
   {
@@ -124,7 +124,7 @@ export const data = [
     choices: ['M. Verstappen','S. Perez','V. Bottas','L. Hamilton'],
     answer: 'M. Verstappen',
     category:"FORMULA1",
-    level:"D",
+    nivel:"D",
     id:"16",
   },
   {
@@ -132,7 +132,7 @@ export const data = [
     choices: ['Juan Manuel Fangio','Michael Schumacher','V. Bottas','Alain Prost'],
     answer: 'Michael Schumacher',
     category:"FORMULA1",
-    level:"D",
+    nivel:"D",
     id:"17",
   },
   {
@@ -140,7 +140,7 @@ export const data = [
     choices: ['10','5','7','4'],
     answer: '7',
     category:"FORMULA1",
-    level:"D",
+    nivel:"D",
     id:"18",
   },
   {
@@ -148,7 +148,7 @@ export const data = [
     choices: ['Ingles','Austriaco','Polaco','Argentina'],
     answer: 'Austriaco',
     category:"FORMULA1",
-    level:"D",
+    nivel:"D",
     id:"19",
   },
   {
@@ -156,7 +156,7 @@ export const data = [
     choices: ['Ingles','Austriaco','Polaco','Argentina'],
     answer: 'Austriaco',
     category:"FORMULA1",
-    level:"D",
+    nivel:"D",
     id:"20",
   },
   {
@@ -164,7 +164,7 @@ export const data = [
     choices: ['Kyle Chalmers','Kliment Kolesnikov','Caeleb Dressel','Tyson Fury'],
     answer: 'Caeleb Dressel',
     category:"Olimpico",
-    level:"E",
+    nivel:"E",
     id:"21",
   },
   {
@@ -172,7 +172,7 @@ export const data = [
     choices: ['Ian Thorpe','Michael Phelps','Caeleb Dressel','Emma McKeon'],
     answer: 'Michael Phelps',
     category:"Olimpico",
-    level:"E",
+    nivel:"E",
     id:"22",
   },
   {
@@ -180,7 +180,7 @@ export const data = [
     choices: ['Brasil','Japon','Gran Bretaña','Argentina'],
     answer: 'Japon',
     category:"Olimpico",
-    level:"E",
+    nivel:"E",
     id:"23",
   },
   {
@@ -188,7 +188,7 @@ export const data = [
     choices: ['Usa','Japon','Gran Bretaña','China'],
     answer: 'Usa',
     category:"Olimpico",
-    level:"E",
+    nivel:"E",
     id:"24",
   },
   {
@@ -196,7 +196,7 @@ export const data = [
     choices: ['ian Thorpe','Florent Manaudou','Caeleb Dressel','Bruno Fratus'],
     answer: 'Caeleb Dressel',
     category:"Olimpico",
-    level:"E",
+    nivel:"E",
     id:"25",
   },
 ];
