@@ -6,13 +6,15 @@ class Question {
    * @param {string} answer respuesta
    * @param {string} category  categoria pregunta
    * @param {int} level nivel de la categoria
+   * @param {string} id id de la categoria
    */
-  constructor(text, choices, answer, category, level) {
+  constructor(text, choices, answer, category, level, id) {
     this.text = text;
     this.choices = choices;
     this.answer = answer;
     this.category = category;
-    this.level = level
+    this.level = level;
+    this.id = id;
   }
 
   /**
@@ -23,6 +25,7 @@ class Question {
   correctAnswer(choice) {
     return choice === this.answer;
   }
+ 
 }
 
 export { Question };

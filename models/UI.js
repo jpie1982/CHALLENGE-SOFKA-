@@ -1,3 +1,6 @@
+
+// PANTALLA
+
 export class UI {
   constructor() {}
 
@@ -30,10 +33,10 @@ export class UI {
 
   showScores(score) {
     const gameOverHTML = `
-      <h1>Result</h1>
-      <h2 id="score">Your scores: ${score}</h2>
+      <h1>Fin</h1>
+      <h2 id="score">Tu Puntaje es: ${score}</h2>
       `;
-    // <h2 id="score">Your scores: ${quiz.score}</h2>
+   
 
     const element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
